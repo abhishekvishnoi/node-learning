@@ -5,6 +5,7 @@ run().then(() => console.log("Done"), err => console.log(err));
 async function run() {
 
     // Kafka Producer configuration , bootstrap-server details from OCP
+    //   const kafka = new Kafka({ brokers: ["kafka-cluster-kafka-bootstrap.cops-app-mod.svc.cluster.local:9092"] });
     const kafka = new Kafka({ brokers: ["localhost:29092"] });
 
     const producer = kafka.producer();
