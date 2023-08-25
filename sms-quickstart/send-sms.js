@@ -4,7 +4,7 @@ const { SmsClient } = require('@azure/communication-sms');
 // from an environment variable.
 //const connectionString = process.env['COMMUNICATION_SERVICES_CONNECTION_STRING'];
 
-const connectionString = 'https://indigoacs.unitedstates.communication.azure.com/;accesskey=l2B4qF/sMzzU6nMhW5PDvvaCJf1QPCRUx+JyEmvohI2QtyL1N7MIHSRSkfqt3PDhaBwLXfsZSgykC7uxkkIKrw=='
+const connectionString = ''
 
 // Instantiate the SMS client.
 const smsClient = new SmsClient(connectionString);
