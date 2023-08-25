@@ -18,7 +18,7 @@ async function run() {
             { value: "{\"meetingId\":\"SGML\"," +
                     "\"message\":{\"body\":\"Hi , Please Accept the Meeting\"," +
                     "\"fromEmail\":\"abhishek@gmail.com\"," +
-                    "\"toEmail\":\"hello.x.vishnoi@goindigo.in\"," +
+                    "\"toEmail\":\"abhishek.x.vishnoi@goindigo.in\"," +
                     "\"subject\":\"Meeting Invite\"}," +
                     "\"meetingDate\":\"05-02-1990\"}" },
         ]
